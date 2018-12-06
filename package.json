@@ -1,0 +1,29 @@
+{
+  "name": "css-reset-starter",
+  "version": "1.0.0",
+  "description": "CSS Reset Starter",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taharbelhouchat/css-reset-starter.git"
+  },
+  "keywords": [
+    "css",
+    "css",
+    "reset"
+  ],
+  "author": "Tahar Belhouchat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taharbelhouchat/css-reset-starter/issues"
+  },
+  "homepage": "https://github.com/taharbelhouchat/css-reset-starter#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.10.0"
+  }
+}
